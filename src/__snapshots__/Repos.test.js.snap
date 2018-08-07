@@ -1,0 +1,473 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Repos /> should render Issues as per showIssueFor 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown
+    onClickRepo={[Function]}
+    repos={
+        Array [
+            Object {
+              "id": 1,
+              "name": "repo one name",
+            },
+            Object {
+              "id": 2,
+              "name": "repo two name",
+            },
+          ]
+    }
+    showIssueFor="repo two name"
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <Unknown>
+          <li
+                    onClick={[Function]}
+          >
+                    repo one name
+          </li>
+</Unknown>,
+        <Unknown>
+          <li
+                    onClick={[Function]}
+          >
+                    repo two name
+          </li>
+          <Connect(lifecycle(branch(Component)))
+                    repo="repo two name"
+          />
+</Unknown>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": "1",
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <li
+              onClick={[Function]}
+>
+              repo one name
+</li>,
+            false,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "repo one name",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "repo one name",
+            "type": "li",
+          },
+          false,
+        ],
+        "type": Symbol(react.fragment),
+      },
+      Object {
+        "instance": null,
+        "key": "2",
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <li
+              onClick={[Function]}
+>
+              repo two name
+</li>,
+            <Connect(lifecycle(branch(Component)))
+              repo="repo two name"
+/>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "repo two name",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "repo two name",
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "repo": "repo two name",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": Symbol(react.fragment),
+      },
+    ],
+    "type": "ul",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <Unknown>
+            <li
+                        onClick={[Function]}
+            >
+                        repo one name
+            </li>
+</Unknown>,
+          <Unknown>
+            <li
+                        onClick={[Function]}
+            >
+                        repo two name
+            </li>
+            <Connect(lifecycle(branch(Component)))
+                        repo="repo two name"
+            />
+</Unknown>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "1",
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <li
+                onClick={[Function]}
+>
+                repo one name
+</li>,
+              false,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "repo one name",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "repo one name",
+              "type": "li",
+            },
+            false,
+          ],
+          "type": Symbol(react.fragment),
+        },
+        Object {
+          "instance": null,
+          "key": "2",
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <li
+                onClick={[Function]}
+>
+                repo two name
+</li>,
+              <Connect(lifecycle(branch(Component)))
+                repo="repo two name"
+/>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "repo two name",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "repo two name",
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "repo": "repo two name",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": Symbol(react.fragment),
+        },
+      ],
+      "type": "ul",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`<Repos /> should render correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown
+    onClickRepo={[Function]}
+    repos={
+        Array [
+            Object {
+              "id": 1,
+              "name": "repo one name",
+            },
+            Object {
+              "id": 2,
+              "name": "repo two name",
+            },
+          ]
+    }
+    showIssueFor=""
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <Unknown>
+          <li
+                    onClick={[Function]}
+          >
+                    repo one name
+          </li>
+</Unknown>,
+        <Unknown>
+          <li
+                    onClick={[Function]}
+          >
+                    repo two name
+          </li>
+</Unknown>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": "1",
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <li
+              onClick={[Function]}
+>
+              repo one name
+</li>,
+            false,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "repo one name",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "repo one name",
+            "type": "li",
+          },
+          false,
+        ],
+        "type": Symbol(react.fragment),
+      },
+      Object {
+        "instance": null,
+        "key": "2",
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <li
+              onClick={[Function]}
+>
+              repo two name
+</li>,
+            false,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "repo two name",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "repo two name",
+            "type": "li",
+          },
+          false,
+        ],
+        "type": Symbol(react.fragment),
+      },
+    ],
+    "type": "ul",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <Unknown>
+            <li
+                        onClick={[Function]}
+            >
+                        repo one name
+            </li>
+</Unknown>,
+          <Unknown>
+            <li
+                        onClick={[Function]}
+            >
+                        repo two name
+            </li>
+</Unknown>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "1",
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <li
+                onClick={[Function]}
+>
+                repo one name
+</li>,
+              false,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "repo one name",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "repo one name",
+              "type": "li",
+            },
+            false,
+          ],
+          "type": Symbol(react.fragment),
+        },
+        Object {
+          "instance": null,
+          "key": "2",
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <li
+                onClick={[Function]}
+>
+                repo two name
+</li>,
+              false,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "repo two name",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "repo two name",
+              "type": "li",
+            },
+            false,
+          ],
+          "type": Symbol(react.fragment),
+        },
+      ],
+      "type": "ul",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
